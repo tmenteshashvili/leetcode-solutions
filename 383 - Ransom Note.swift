@@ -1,3 +1,5 @@
+// Problemset url: https://leetcode.com/problems/ransom-note/description/
+
 class Solution {
   func canConstruct(_ ransomNote: String, _ magazine: String) -> Bool {
     if ransomNote.count > magazine.count { return false }
